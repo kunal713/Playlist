@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <script src="scripts/angular/angular.js"></script>
+    <script src="scripts/angular/angular-ui-router.js"></script>
+    <link rel="stylesheet" href="style/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="style/bootstrap/bootstrap-theme.css">
+  </head>
+
+  <body>
+    <div class="container" ng-app="app" ng-controller="listCtrl">
+        <div ng-include="'templates/playlist.html'"></div>
+        <div ng-include="'templates/footer.html'"></div>
+    </div>
+  </body>
+  
+  <script src="scripts/app.js"></script>
+  <script src="scripts/services/songs.js"></script>
+  <script src="scripts/controllers/listCtrl.js"></script>
+</html>

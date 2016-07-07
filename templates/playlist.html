@@ -1,0 +1,7 @@
+<link rel="stylesheet" type="text/css" href="../style/playlist-style.css">
+
+<h2>{{title}}</h2>
+
+<ul>
+	<li ng-repeat="song in songs"><a href="https://www.youtube.com/watch?v={{song.id}}" target="_blank">{{song.name}}</a></li>
+</ul>
